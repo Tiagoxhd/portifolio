@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-main {
+    width: 100vw;
+    height: auto;
+    background-color: #19191B;
+}
+
+.navigation {
+    height: 70px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 45px;
+}
+
+.logo {
+    color: #8A2BE2;;
+    font-size: 35px;
+    font-family: "Fredoka One", cursive;
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: -68px;
+    display: flex;
+}
+
+.item-menu {
+    color: white;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.button {
+    width: 139px;
+    height: 40px;
+    color: black;
+    margin-left: 45px;
+    background-color: #8A2BE2;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.icone {
+    padding-right: 5px;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    border-bottom: 1px  solid rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.space2 {
+    width: 105px;
+    height: 420px;
+    border-right: 1px solid rgb(51, 51, 51);
+}
+
+.image {
+    width: 147%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;    
+}
+
+.painel {
+    width: 400px;
+    height: 70%;
+    padding-right: 50px;
+    text-align: start;
+    border-right: 1px solid rgb(51, 51, 51);
+    padding-top: 5%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.front {
+    display: flex;
+    margin-bottom: 5%;
+    color:#8A2BE2;
+    animation: front 1s ease-in-out infinite alternate-reverse;
+}
+@keyframes front {
+
+    0%{opacity: 0.1;}
+    20%{opacity: 0.2;}
+    40%{opacity: 0.4;}
+    60%{opacity: 0.6;}
+    70%{opacity: 0.7;}
+    80%{opacity: 0.8;}
+    100%{opacity: 1;}
+}
+
+.conhecer {
+    margin-top: 10%;
+    font-size: 150px;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 10%;
+  
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 404;
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.git {
+    width: 184px;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #8A2BE2;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+.recover {
+    width: 100vw;
+    height: 20vh;
+    color: white;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px  solid rgb(51, 51, 51);
+}
+
+.apresentacao {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.verif {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.componentes {
+    width: 300px;
+    height: 328px;
+    margin-top: 60px;
+    margin-top: 60px;
+    padding-left: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.ref {
+    width: 100vw;
+    display: flex;
+    height: 305px;
+}
+
+.space {
+    width: 1px;
+    height: 100%;
+    border-right: 1px solid rgb(51, 51, 51);
+    display: flex;
+}
+
+.colum {
+    width: 43%;
+    border-right: 1px solid rgb(51, 51, 51);  
+    border-bottom: 1px solid rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history {
+    width: 45%;
+    height: auto;
+    border-left: 1px solid rgb(51, 51, 51);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    overflow-y: auto;
+}
+
+.sobre {
+    width: 80%;
+    color: #8A2BE2;;
+    padding-left: 30px;
+    padding-top: 25px;
+    border-left: 1px solid rgb(51, 51, 51);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.story {
+    color: white;
+    padding-left: 10px; 
+    margin-top: 30px;   
+    border-bottom: 1px solid rgb(51, 51, 51);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+.bray {
+    color: #8A2BE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.tec {
+    width: 172px;
+    height: 182px;
+    margin: 10px 20px;
+    padding: 31px;
+    border: 1px solid rgb(51, 51, 51);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    flex-direction: column;
+}
+
+.card {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    flex-wrap: wrap;
+}
+
+.cards {
+    padding-left: 33px;
+    padding-top: 19px;
+    height: 25px;
+    color: white;
+}
+
+.pro {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.devoleper {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+.crow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8A2BE2;
+}
+
+@media (max-width:800px){
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .compontes {
+        display: none;
+    }
+}
